@@ -169,6 +169,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.netflix.bsp_rev=Q6125-17995-1
 
+# Navbar - gestural
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
 # OTG
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.oem.otg_support=true
