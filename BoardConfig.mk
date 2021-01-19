@@ -108,6 +108,11 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 # CNE and DPM
 BOARD_USES_QCNE := true
 
+# Dex
+WITH_DEXPREOPT_DEBUG_INFO := false
+DONT_DEXPREOPT_PREBUILTS := true
+USE_DEX2OAT_DEBUG := false
+
 # Display
 USE_DEVICE_SPECIFIC_DISPLAY := true
 DEVICE_SPECIFIC_DISPLAY_PATH := $(DEVICE_PATH)/qcom-caf/display
@@ -129,16 +134,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
-
-# Enable dexpreopt to speed boot time
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-      WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
-    endif
-  endif
-endif
 
 # FM
 BOARD_HAVE_QCOM_FM := true
