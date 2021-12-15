@@ -1048,10 +1048,12 @@ service esepmdaemon /system/vendor/bin/esepmdaemon
     group nfc
 
 on charger
+    start charger
     setprop persist.sys.usb.config mass_storage
     load_system_props
     start qcom-post-boot
     start vendor.power_off_alarm
+    start vendor.health-hal-2-0
 
 #add poweroffhandler
 service poweroffhandler /system/vendor/bin/poweroffhandler
