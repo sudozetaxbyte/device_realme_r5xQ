@@ -444,7 +444,7 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
 # V4a
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Vibrator
 PRODUCT_PACKAGES += \
