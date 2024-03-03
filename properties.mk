@@ -163,7 +163,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    media.settings.xml=/vendor/etc/media_profiles_V1_0.xml
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Netflix
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
