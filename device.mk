@@ -338,6 +338,13 @@ PRODUCT_PACKAGES += \
     libregistermsext \
     mediametrics
 
+# Minijail
+PRODUCT_PACKAGES += \
+    libminijail \
+    libminijail.vendor \
+    libavservices_minijail \
+    libavservices_minijail.vendor
+
 # Netutils
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
