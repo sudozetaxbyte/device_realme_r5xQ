@@ -22,7 +22,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/realme/r5x
+DEVICE_PATH := device/realme/r5xQ
 
 BOARD_VENDOR := realme
 
@@ -64,14 +64,14 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/realme/r5x
-TARGET_KERNEL_CONFIG := vendor/RMX1911_defconfig
+TARGET_KERNEL_CONFIG := vendor/R5X_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1911,RMX1925,RMX1927,RMX2030,r5x,realme_trinket
+TARGET_OTA_ASSERT_DEVICE := RMX1911,RMX1925,RMX1927,RMX2030,r5x,r5xQ,realme_trinket
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
@@ -226,4 +226,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
--include vendor/realme/r5x/BoardConfigVendor.mk
+-include vendor/realme/r5xQ/BoardConfigVendor.mk

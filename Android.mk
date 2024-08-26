@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter r5x,$(TARGET_DEVICE)),)
+ifneq ($(filter r5xQ,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 

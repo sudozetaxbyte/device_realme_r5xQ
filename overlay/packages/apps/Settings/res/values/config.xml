@@ -26,7 +26,7 @@
 
     <!-- Device info -->
     <string name="ap_device_name">Device name</string>
-    <string name="ap_device_name_summary">Realme 5 Series</string>
+    <string name="ap_device_name_summary">Realme r5xQ Unified</string>
     <string name="ap_chipset_type">Chipset</string>
     <string name="ap_chipset_type_summary">Snapdragon 665™</string>
     <string name="ap_gpu">GPU</string>
@@ -37,7 +37,7 @@
     <string name="ap_screen_type_summary">IPS LCD HD 6.5 Screen</string>
 
     <!-- Maintainer -->
-    <string name="maintainer_name"> Amritorock</string>
+    <string name="maintainer_name"> Unoff by zetaxbyte</string>
 
     <!-- Battery Health -->
     <bool name="config_supportBatteryHealth">true</bool>

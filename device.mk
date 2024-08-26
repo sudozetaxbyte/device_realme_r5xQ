@@ -226,7 +226,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.r5x
+    android.hardware.biometrics.fingerprint@2.1-service.r5xQ
 
 # FM
 PRODUCT_PACKAGES += \
@@ -314,7 +314,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.realme_r5x
+    android.hardware.light@2.0-service.realme_r5xQ
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -484,4 +484,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Call proprietary blob setup
-$(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
+$(call inherit-product, vendor/realme/r5xQ/r5xQ-vendor.mk)

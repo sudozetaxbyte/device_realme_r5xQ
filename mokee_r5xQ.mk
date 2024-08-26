@@ -10,26 +10,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
 
-# Inherit from r5x device
+# Inherit from r5xQ device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-USE_PIXEL_CHARGING := true
 
 PRODUCT_BRAND := realme
-PRODUCT_DEVICE := r5x
+PRODUCT_DEVICE := r5xQ
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := nad_r5x
-PRODUCT_MODEL := Realme 5 Series
+PRODUCT_NAME := mokee_r5xQ
+PRODUCT_MODEL := Realme r5xQ Unified
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-TARGET_VENDOR_PRODUCT_NAME := r5x
-TARGET_VENDOR_DEVICE_NAME := r5x
+TARGET_VENDOR_PRODUCT_NAME := r5xQ
+TARGET_VENDOR_DEVICE_NAME := r5xQ
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="r5x" \
