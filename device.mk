@@ -209,6 +209,10 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.1 \
     vendor.display.config@1.1_vendor
 
+# Parts
+PRODUCT_PACKAGES += \
+    devicesettings
+
 # Display interfaces
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer@1.0.vendor \
