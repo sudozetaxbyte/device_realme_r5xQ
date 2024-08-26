@@ -286,6 +286,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.class_main.sh \
+    init.devicesetting.rc \
     init.oppo.fingerprints.rc \
     init.oppo.fingerprints.sh \
     init.oppo.reserve.rc \
