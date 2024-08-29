@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_r5xQ.mk
+    $(LOCAL_DIR)/nad_r5xQ.mk
 
 COMMON_LUNCH_CHOICES := \
-    mokee_r5xQ-user \
-    mokee_r5xQ-userdebug \
-    mokee_r5xQ-eng
+    nad_r5xQ-user \
+    nad_r5xQ-userdebug \
+    nad_r5xQ-eng
