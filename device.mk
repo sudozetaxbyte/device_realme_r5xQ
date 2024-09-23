@@ -217,6 +217,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
+
 # Display interfaces
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer@1.0.vendor \
