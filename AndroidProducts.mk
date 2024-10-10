@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_r5xQ.mk
+    $(LOCAL_DIR)/lineage_r5xQ.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_r5xQ-user \
-    nad_r5xQ-userdebug \
-    nad_r5xQ-eng
+    lineage_r5xQ-user \
+    lineage_r5xQ-userdebug \
+    lineage_r5xQ-eng
