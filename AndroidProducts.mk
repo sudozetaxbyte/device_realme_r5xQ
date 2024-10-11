@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_r5xQ.mk
+    $(LOCAL_DIR)/mokee_r5xQ.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_r5xQ-user \
-    lineage_r5xQ-userdebug \
-    lineage_r5xQ-eng
+    mokee_r5xQ-user \
+    mokee_r5xQ-userdebug \
+    mokee_r5xQ-eng
