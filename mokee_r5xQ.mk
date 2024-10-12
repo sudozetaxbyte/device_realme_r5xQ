@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/mokee/config/common_full_phone.mk)
-$(call inherit-product, vendor/mokee/config/mokee_private.mk)
+$(call inherit-product, vendor/mokee-priv/config/mokee_private.mk)
 
 # Inherit from r5xQ device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
