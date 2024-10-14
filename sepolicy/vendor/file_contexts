@@ -24,5 +24,8 @@
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
 
-# Battery_supply
+# Battery
 /sys/devices/platform/soc/.*battery_supply(/.*)?    u:object_r:sysfs_battery_supply:s0
+/sys/devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/.*/power_supply/battery(/.*)?   u:object_r:sysfs_battery_supply:s0
+/sys/devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/.*/power_supply/ac(/.*)?        u:object_r:sysfs:s0
+/sys/devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/.*/power_supply/pc_port(/.*)?   u:object_r:sysfs_usb_supply:s0
