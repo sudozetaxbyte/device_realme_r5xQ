@@ -23,3 +23,6 @@
 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
+
+# Battery_supply
+/sys/devices/platform/soc/.*battery_supply(/.*)?    u:object_r:sysfs_battery_supply:s0
