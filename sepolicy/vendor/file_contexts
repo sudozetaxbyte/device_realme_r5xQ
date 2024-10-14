@@ -29,3 +29,6 @@
 /sys/devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/.*/power_supply/battery(/.*)?   u:object_r:sysfs_battery_supply:s0
 /sys/devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/.*/power_supply/ac(/.*)?        u:object_r:sysfs:s0
 /sys/devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/.*/power_supply/pc_port(/.*)?   u:object_r:sysfs_usb_supply:s0
+
+# Fps
+/sys/devices/platform/soc/5e00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps u:object_r:sysfs_graphics:s0
