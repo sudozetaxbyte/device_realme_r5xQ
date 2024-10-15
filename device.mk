@@ -24,8 +24,6 @@
 # Inherit properties
 $(call inherit-product, $(LOCAL_PATH)/properties.mk)
 
-$(call inherit-product, vendor/extra/product.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
