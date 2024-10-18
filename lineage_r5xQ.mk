@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from r5xQ device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -21,7 +21,7 @@ TARGET_GAPPS_ARCH := arm64
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := r5xQ
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := mokee_r5xQ
+PRODUCT_NAME := lineage_r5xQ
 PRODUCT_MODEL := Realme r5xQ Unified
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
