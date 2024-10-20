@@ -492,5 +492,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Signed Build
+-include vendor/lineage-priv/keys/keys.mk
+
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/r5xQ/r5xQ-vendor.mk)
